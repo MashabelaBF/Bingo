@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+<div class="main" align="center" >
+  <table border="0"> 
+      <tr>
+          <td id="62" colspan=5 ><h1>BINGO</h1></td>
+      </tr>
+      <tr>
+          <td id="1:1" (click)="checkWinner($event)"></td>
+          <td id="1:2" (click)="checkWinner($event)"></td>
+          <td id="1:3" (click)="checkWinner($event)"></td>
+          <td id="1:4" (click)="checkWinner($event)"></td>
+          <td id="1:5" (click)="checkWinner($event)"></td>
+      </tr>
+      <tr>
+          <td id="2:1" (click)="checkWinner($event)"></td>
+          <td id="2:2" (click)="checkWinner($event)"></td>
+          <td id="2:3" (click)="checkWinner($event)"></td>
+          <td id="2:4" (click)="checkWinner($event)"></td>
+          <td id="2:5" (click)="checkWinner($event)"></td>
+      </tr>
+      <tr>
+          <td id="3:1" (click)="checkWinner($event)"></td>
+          <td id="3:2" (click)="checkWinner($event)"></td>
+          <td id="3:3" (click)="checkWinner($event)"></td>
+          <td id="3:4" (click)="checkWinner($event)"></td> 
+          <td id="3:5" (click)="checkWinner($event)"></td>
+      </tr>
+      <tr>
+          <td id="4:1" (click)="checkWinner($event)"></td>
+          <td id="4:2" (click)="checkWinner($event)"></td>
+          <td id="4:3" (click)="checkWinner($event)"></td>
+          <td id="4:4" (click)="checkWinner($event)"></td>
+          <td id="4:5" (click)="checkWinner($event)"></td>
+      </tr>
+      <tr>
+          <td id="5:1" (click)="checkWinner($event)"></td>
+          <td id="5:2" (click)="checkWinner($event)"></td>
+          <td id="5:3" (click)="checkWinner($event)"></td>
+          <td id="5:4" (click)="checkWinner($event)"></td>
+          <td id="5:5" (click)="checkWinner($event)"></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td><button (click)="newGame()">New Game</button></td>
+          <td></td>
+          <td></td> 
+      </tr>
+          
+     
+       
+  </table>
+ <p>Hint: click on the word that player one mentioned</p>
+</div>
+</ion-content>
